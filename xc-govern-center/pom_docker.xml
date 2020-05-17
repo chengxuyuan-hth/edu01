@@ -36,7 +36,7 @@
                     <imageName>${project.artifactId}-${project.version}</imageName>
                     <!--Dockerfile文件所在目录-->
                     <dockerDirectory>${project.basedir}/src/main/resources</dockerDirectory>
-                    <!--TAG,这里用工程版本号-->
+                    <!-- TAG,这里用工程版本号-->
                     <imageTags>
                         <imageTag>${project.version}</imageTag>
                     </imageTags>
