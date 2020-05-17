@@ -32,7 +32,7 @@
                 <version>1.0.0</version>
                 <!--docker镜像相关的 配置 信息-->
                 <configuration>
-                    <!--镜像名，这里用工程名-->
+                    <!-- 镜像名，这里用工程名-->
                     <imageName>${project.artifactId}-${project.version}</imageName>
                     <!--Dockerfile文件所在目录-->
                     <dockerDirectory>${project.basedir}/src/main/resources</dockerDirectory>
